@@ -1,0 +1,321 @@
+.homesec{
+
+background-image: url(../images/bg.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+.PAnimation{
+    font-size: 5rem;
+}
+.PAnimation::after{
+    content: "";
+    font-weight: 500;
+    animation: typingChanger 5s infinite alternate;
+}
+@keyframes typingChanger{
+    0%{
+        content: " Larry Daniels|";
+    }
+    12.8%{
+        content: " Larry Daniels|";
+    }
+    12.9%{
+        content: " Larry Daniel|";
+    }
+    13%{
+        content: " Larry Danie|";
+    }
+    14.5%{
+        content: " Larry Dani|";
+    }
+    16%{
+        content: " Larry Dan|";
+    }
+    17.5%{
+        content: " Larry Da|";
+    }
+    19%{
+        content: " Larry D|";
+    }
+    20.5%{
+        content: " Larry |";
+    }
+    22%{
+        content: " Larry|";
+    }
+    23.5%{
+        content: " Larr|";
+    }
+    25%{
+        content: " Lar|";
+    }
+    26.5%{
+        content: " La|";
+    }
+    28%{
+        content: " L|";
+    }
+    29.5%{
+        content: " |";
+    }
+    31%{
+        content: " D|";
+    }
+    32.5%{
+        content: " De|";
+    }
+    34%{
+        content: " Dev|";
+    }
+    35.5%{
+        content: " Deve|";
+    }
+    37%{
+        content: " Devel|";
+    }
+    38.5%{
+        content: " Develo|";
+    }
+    40%{
+        content: " Develop|";
+    }
+    41.5%{
+        content: " Develope|";
+    }
+    43%{
+        content: " Developer|";
+    }
+    54.4%{
+        content: " Developer|";
+    }
+    54.5%{
+        content: " Develope|";
+    }
+    56%{
+        content: " Develop|";
+    }
+    57.5%{
+        content: " Develo|";
+    }
+    59%{
+        content: " Devel|";
+    }
+    60.5%{
+        content: " Deve|";
+    }
+    62%{
+        content: " Dev|";
+    }
+    63.5%{
+        content: " De|";
+    }
+    65%{
+        content: " D|";
+    }
+    66.5%{
+        content: " |";
+    }
+    68%{
+        content: " D|";
+    }
+    69.5%{
+        content: " De|";
+    }
+    71%{
+        content: " Des|";
+    }
+    72.5%{
+        content: " Desi|";
+    }
+    74%{
+        content: " Desig|";
+    }
+    75.5%{
+        content: " Design|";
+    }
+    77%{
+        content: " Designe|";
+    }
+    78.5%{
+        content: " Designer|";
+    }
+    100%{
+        content: " Designer|";
+    }
+     
+}
+.HomeIconParent{
+    top: 70%;
+}
+.navbar{
+    z-index: 99999;
+    right: 0;
+    left: 0;
+}
+.nav-link span{
+    color: #FE7C00;
+}
+.figerImg{
+    position: relative;
+}
+.figerImg::after{
+    content: '';
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 35px;
+    bottom: -30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.progress-bar{background-color: black;}
+.btnabout{
+    transition: all 0.5s;
+    background-color: black;
+    color:white;
+}
+.btnabout::hover{
+background-color: transparent;
+color: black;
+}
+.btnabout2{
+    background-color: transparent;
+    color: black; 
+    transition: all 0.5s;
+}
+.btnabout2::hover{
+ 
+    background-color: black;
+    color:white;
+}
+.servicessec{
+    background-color:#F8F9FA ;
+}
+.servtitlep::after{
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+}
+.servtitlep{
+    width: fit-content;
+    z-index: 1;
+}
+.ServIcons{
+    width: 85px;
+    height: 85px;
+    background-color: rgba(128, 128, 128, 0.086);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    transition: 0.5s all;
+}
+.servcontent:hover .ServIcons{
+    background-color: black;
+    color: white;
+
+}
+.Portfoliosec{
+    background-color: white;
+}
+.porttitle::after{
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+}
+.porttitle{
+    width: fit-content;
+    z-index: 1;
+}
+.imgcaption{
+    top: 5px;
+    bottom: 5px;
+    right: 5px;
+    left: 5px;
+    background-color: rgba(255, 255, 255, 0.95);
+    transform: translateY(5%);
+    opacity: 0;
+    transition: all 0.5s;
+}
+.imgcaption:hover{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.WorkIcons{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    background-color:black ;
+    color: white;
+transition: all 0.5s;
+}
+
+.WorkIcons:hover{
+background-color: white;
+color: black;
+}
+.port2sec{
+    background-color: #F8F9FA;
+}
+.carimg{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+.ServIcons1{
+    width: 60px;
+    height: 60px;
+    background-color: #F9FAFB;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    transition: 0.5s all;
+}
+.ContentIcon:hover .ServIcons1{
+    background-color: black;
+    color: white;
+}
+
+.BlogCards{
+    background-color: transparent;
+}
+.BlogCardImg{
+    width: 100%;
+    height: auto;
+    transition: all 1s;
+}
+.BlogCardImg:hover{
+    transform: scale(1.2,1.2);
+}
+

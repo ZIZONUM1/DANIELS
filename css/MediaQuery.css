@@ -1,0 +1,13 @@
+@media only screen and (max-width: 768px) {
+    .homesec{
+        background-size: 100% 100%;
+    }
+    h1{
+    font-size: 1.5rem;
+
+}
+.PAnimation{
+    font-size: 2rem;
+}
+
+}
